@@ -1,0 +1,5 @@
+- type: parallel
+  steps:
+    - name: tests
+      service: app
+      command: bundle exec rspec spec.rb
